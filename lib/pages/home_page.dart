@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_clicks/main.dart';
+import 'package:flutter_clicks/widgets/app_header.dart';
+import 'package:flutter_clicks/widgets/app_search.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -25,9 +27,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          // AppHeader()
-        ],
+        children: [AppHeader(), AppSearch()],
       ),
     );
   }
