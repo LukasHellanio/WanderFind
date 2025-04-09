@@ -5,10 +5,10 @@ class AppSearch extends StatefulWidget {
   const AppSearch({super.key});
 
   @override
-  State<AppSearch> createState() => _MyWidgetState();
+  State<AppSearch> createState() => _MyAppSearchState();
 }
 
-class _MyWidgetState extends State<AppSearch> {
+class _MyAppSearchState extends State<AppSearch> {
   @override
   Widget build(BuildContext context) {
     return Container(
