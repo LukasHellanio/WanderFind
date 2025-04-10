@@ -9,11 +9,15 @@
 - `AppCard` widget with image, title, and location
 - Basic search UI component (non-functional for now)
 - Modular folder structure
+- Profile page with avatar, description, achievements, and social media buttons
+- Scrollable achievements section with animated cards
+- Bottom navigation bar with navigation between pages (Home and Profile)
 
 ## 📁 Project Structure
 
 ```
 lib/
+├── assets/           # Asset files (e.g., images, icons)
 ├── data/             # Mock data (e.g., mount_items.dart)
 ├── model/            # Data models (e.g., MountModel)
 ├── pages/            # Pages and screens (e.g., HomePage)
@@ -58,9 +62,12 @@ lib/
 
 ![AppBar and List](lib/assets/screens/WanderFind.png)
 
-![Scrollable Cards](lib/assets/screens/home.jpeg)
-_AppBar with terrain icon and search input_
+![Home](lib/assets/screens/home.jpeg)
 
----
+![Profile](lib/assets/screens/profile.jpeg)
+
+## 👨‍💻 About the Developer
+
+This app was created by Lucas, a passionate mobile developer who loves building beautiful and functional apps using Flutter. Feel free to connect on social media for more updates and insights into future projects.
 
 Made with ❤️ using Flutter — _Explore the heights with WanderFind_
